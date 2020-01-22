@@ -3,3 +3,13 @@ mdadm --assemble --run /dev/md0 /dev/sdb8 --force
 lsblk
 sudo lvdisplay
 sudo mount /dev/vg/lv /home/tellierp/sdc8/
+
+
+
+
+
+
+sources : 
+https://www.cyberciti.biz/faq/linux-list-disk-partitions-command/
+https://www.svennd.be/mount-unknown-filesystem-type-linux_raid_member/
+https://www.svennd.be/mount-unknown-filesystem-type-lvm2_member/
