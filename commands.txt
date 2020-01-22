@@ -1,0 +1,5 @@
+sudo apt install mdadm lvm2
+mdadm --assemble --run /dev/md0 /dev/sdb8 --force
+lsblk
+sudo lvdisplay
+sudo mount /dev/vg/lv /home/tellierp/sdc8/
